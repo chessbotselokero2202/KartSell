@@ -85,3 +85,23 @@ footer{
     border-top:2px solid #d4af37;
     margin-top:50px;
 }
+.search-box{
+    text-align:center;
+    margin:25px 0;
+}
+
+.search-box input{
+    width:320px;
+    max-width:90%;
+    padding:15px;
+    font-size:18px;
+    border-radius:10px;
+    border:2px solid #d4af37;
+    background:#111;
+    color:white;
+    outline:none;
+}
+
+.search-box input::placeholder{
+    color:#aaa;
+}
