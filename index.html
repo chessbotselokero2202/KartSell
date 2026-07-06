@@ -126,5 +126,34 @@
     © 2026 KartSell • %100 Orijinal Futbolcu Kartları
 </footer>
 
+<footer>
+    © 2026 KartSell • %100 Orijinal Futbolcu Kartları
+</footer>
+
+<script>
+const searchInput=document.getElementById("searchInput");
+
+searchInput.addEventListener("keyup",function(){
+
+let filter=this.value.toLowerCase();
+
+document.querySelectorAll(".card").forEach(function(card){
+
+let text=card.innerText.toLowerCase();
+
+if(text.indexOf(filter)>-1){
+card.style.display="block";
+}else{
+card.style.display="none";
+}
+
+});
+
+});
+</script>
+
+</body>
+</html>
+    
 </body>
 </html>
